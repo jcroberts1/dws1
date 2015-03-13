@@ -1,0 +1,147 @@
+
+/* basic elements */
+
+    body {
+    background:#3498db;
+	padding:0 0 20px 0;
+	}
+	
+	
+	#intro {
+	background: rgb(46, 204, 113);
+	font-style: italic;
+	margin: 10px;
+	padding: 20px;
+	}
+	
+	
+    * {
+    background: #ecf0f1;
+	margin:0;
+	padding:0;
+	}
+	
+	h1 {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 40px;
+	color:#3498db;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+	}
+	
+    h2, h3 {
+    font: italic normal 1.4em "Georgia", sans-serif;
+    color: #3399FF;
+    text-shadow: -1px 1px 1px #000;
+	}	
+	
+	
+    ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    float:right;
+    }
+    
+    ol.a {list-style-type: decimal;
+     margin:10px;
+     padding:10px;
+    }
+    
+    .page {
+	overflow: hidden;
+    border-style: solid;
+    box-shadow: 2px 2px 2px #000000;
+    border-width: 2px;
+    border-radius: 5px;
+	position:relative;
+	width:796px;
+	left:50%;
+	margin-left:-390px;
+	overflow:auto;
+	z-index:100;
+	}
+	
+	
+	.header {
+	display: block;
+	margin: 10px;
+	padding: 10px 28px;
+	}
+	
+	.nav{
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	border-bottom: 1px solid #ccc;  }
+.nav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0; }
+.nav li {
+	float: right; 
+	}
+.nav li a {
+	display: block;
+	padding: 10px 28px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; }
+.nav li:first-child a {
+	border-left: 1px solid #ccc; }
+.nav li a:hover {
+	color: #c00;
+	background-color: #fff; }
+
+.navbar ul li a:hover {border: none; border-top: 1px solid white;
+background-color:#AB4500;
+      }
+	
+	/* Articles */
+	.p1 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 100%;
+	font-weight: normal;
+	text-align: center;
+	line-height: 2;
+	 }
+	
+	.p2 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 100%;
+	font-weight: normal;
+	text-align: center;
+	line-height: 2;
+	}
+	/* End Articles */
+	
+	/* Figures */
+	.one {
+     border-style: solid;
+     width: 350px;
+     height: 258px;
+    border-color: #F5FB51;
+     }
+	
+	.two {
+     border-style: solid;
+     width: 190px;
+     height: 276px;
+     border-color: #F5FB51;
+     }
+     
+     .three {
+     border-style: solid;
+     width: 320px;
+     height: 230px;
+     border-color: #F5FB51;
+     }
+	/* End Figures*/
+	
+	
