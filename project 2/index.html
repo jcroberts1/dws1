@@ -1,42 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+	     <meta charset="utf-8" />
 		<title>
 			The Amazing Automobile
 		</title>
-		<link href="css/styles.css"
-		rel="stylesheet"/>
+		<link href="css/styles.css"rel="stylesheet"/>
+		<script src="js/jquery-1.11.0.min.js"></script>
+	    <script src="js/lightbox.min.js"></script>
+	   <link href="css/lightbox.css" rel="stylesheet" />
 	</head>
 	<body>
-	<div class="page">
+	<div id="wrapper">
 	<!--Header-->
 	      <div class="header">
 		<h1>
 			The Amazing Automobile
 		</h1>
-		<!--end Header -->
 		<br>
+		<br>
+		<!--end Header -->
 		
 		<!--Navigation-->
-		<div class="nav">
-	<ul>
-	<li><a href="#gallery">Gallery</a></li>
-	<li><a href="#futuretechnology">Future Technology</a>
-     <li><a href="#history">History</a></li>
-	</ul>
+		<ul id="menu" class="l_Blue">
+		<li class="button"><a href="#history">History</a></li>
+		<li class="button"><a href="#futuretechnology">Future Technology</a></li>
+		<li class="button"><a href="#gallery">Gallery</a></li>
+		<li class="search"><a href="#"></a><input type="text" placeHolder="Search"  />
+		</li>
+		</ul>
 		<br>
 		<br>
 		<br>
 		<br>
 		<br>
+		</div>
 		<!--end Nav-->
 		
 		<!--Introduction-->
+		<div class="intro">
 		<blockquote>
 		<p id="intro">A car is a wheeled, self-powered motor vehicle used for transportation. 
 			Most definitions of the term specify that cars are designed to run primarily on roads, 
 			to have seating for one to eight people, to typically have four wheels, 
-			and to be constructed principally for the transport of people rather than goods.</p></blockquote>
+			and to be constructed principally for the transport of people rather than goods.</p></blockquote></div>
 		     <br>
 		     
 		     
@@ -59,7 +66,7 @@
 		<!-- end Intro -->
 		
 		
-        <!--Begin Articles-->
+        <div class="column1of2">
 		<h2 id="history">
 			History
 		</h2>
@@ -72,9 +79,10 @@
 		<p class="p2">
 			<em>Car propulsion technologies</em> that are under development include gasoline/electric and plug-in hybrids, battery electric vehicles, hydrogen cars, biofuels, and various alternative fuels. Research into future alternative forms of power include the development of fuel cells, Homogeneous Charge Compression Ignition (HCCI), Stirling engines,[54] and even using the stored energy of compressed air or liquid nitrogen. New materials which may replace steel car bodies include duraluminum, fiberglass, carbon fiber, and carbon nanotubes. Telematics technology is allowing more and more people to share cars, on a pay-as-you-go basis, through car share and carpool schemes. Communication is also evolving due to connected car systems. Fully autonomous vehicles, also known as driverless cars, already exist in prototype (such as the Google driverless car), and are expected to be commercially available around 2020. According to urban designer and futurist Michael E. Arth, driverless electric vehicles—in conjunction with the increased use of virtual reality for work, travel, and pleasure—could reduce the world's 800 million vehicles to a fraction of that number within a few decades.This would be possible if almost all private cars requiring drivers, which are not in use and parked 90% of the time, would be traded for public self-driving taxis that would be in near constant use. This would also allow for getting the appropriate vehicle for the particular need—a bus could come for a group of people, a limousine could come for a special night out, and a Segway could come for a short trip down the street for one person. Children could be chauffeured in supervised safety, DUIs would no longer exist, and 41,000 lives could be saved each year in the US alone
 		</p><br>
-		<!-- end article -->
+		</div>
+		<!-- end content -->
 		
-		
+		<div class="column2of2">
 		<h3 id="gallery">
 			Gallery
 		</h3>
@@ -83,35 +91,40 @@
 		<figure>
 		<figcaption>The original Benz Patent-Motorwagen</figcaption>
 		<div class="one">
-		<a href="images/benz_copy.jpg">
+		<a href="images/benz_copy.jpg" data-lightbox="image-1" data-title="The original Benz Patent-Motorwagen">
 		<img alt="a photograph of the original Benz Patent-Motorwagen, first built in 1885 and awarded the patent for the concept." 
 		src="images/benz.jpg"></a>
 		</figure>
 		<br>
+		<br>
+		<br>
+		<br>
 		<figure>
 		<figcaption>Karl Benz</figcaption> 
 		<div class="two">
-		<a href="images/creator_copy.jpg">
+		<a href="images/creator_copy.jpg" data-lightbox="image-2" data-title="Karl Benze">
 		<img alt="Karl Benz, the inventor of the modern car." src="images/creator.jpg"></a>
 		</figure>
+		<br>
+		<br>
+		<br>
 		<br>
 		<figure>
 		<figcaption>A robotic Volkswagen</figcaption>
         <div class="three">
-		<a href="images/hands_free_copy.jpg">
+		<a href="images/hands_free_copy.jpg" data-lightbox="image-3" data-title="A robotic Volkswagen">
 		<img alt="A robotic Volkswagen Passat shown at Stanford University is a driverless car." src="images/hands_free.jpg"></a>
 		</figure>
+		</div>
 		<!-- end Figures -->
 		
-		
-		<h2>
-			Resource:<a href="http://en.wikipedia.org/wiki/Car">http://en.wikipedia.org/wiki/Car</a>
-		</h2>
-	     </div>
-	    </div>
+		<div class="footer">
+		<h5>
+			Resource:<a href="http://en.wikipedia.org/wiki/Car">http://en.wikipedia.org/wiki/Car</a>| ©Job Roberts 2015
+
+		</h5>
 		</div>
 		</div>
 		</div>
-		
 	</body>
 
